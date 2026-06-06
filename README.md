@@ -49,7 +49,8 @@ Starting from LFS, every component of the system is intentional. The filesystem 
     │   ├── etc/                       # Core system configuration
     │   ├── drivers/                   # Hardware modules and system-level driver hooks
     │   │   ├── hardware/              # Firmware, GPU, sensor, peripheral modules
-    │   │   └── system/                # Zex operation drivers (install/detach/upgrade)
+    │   │   ├── system/                # Zex operation drivers (install/detach/upgrade)
+    │   │   └── modules/               # Kernel modules
     │   └── engine/                    # Init and service engine
     │       ├── services/              # System service definitions
     │       └── quantra                # PID 1 init binary
