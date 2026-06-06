@@ -48,13 +48,11 @@ Starting from LFS, every component of the system is intentional. The filesystem 
     │   ├── sbin/                      # Essential system administration binaries
     │   ├── lib/                       # Base system libraries
     │   ├── etc/                       # Core system configuration
-    │   ├── desktop/                   # Desktop environment — lives entirely in syshub
     │   ├── drivers/                   # Hardware modules and system-level driver hooks
     │   │   ├── hardware/              # Firmware, GPU, sensor, peripheral modules
     │   │   └── system/                # Zex operation drivers (install/detach/upgrade)
     │   └── engine/                    # Init and service engine
     │       ├── services/              # System service definitions
-    │       ├── init.toml              # Boot configuration
     │       └── quantra                # PID 1 init binary
     │
     └── zexlib/                        # Writable Userland — all installed packages land here
