@@ -27,7 +27,6 @@ Starting from LFS, every component of the system is intentional. The filesystem 
 
 ```
 / (Root)
-├── boot/
 ├── dev/
 ├── home/
 ├── proc/
