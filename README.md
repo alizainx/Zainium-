@@ -52,7 +52,7 @@ Starting from LFS, every component of the system is intentional. The filesystem 
     │   │   ├── system/                # Zex operation drivers (install/detach/upgrade)
     │   │   └── modules/               # Kernel modules
     │   └── engine/                    # Init and service engine
-    │       ├── services/              # System service definitions
+    │       ├── services/              # Zainium System service definitions
     │       └── quantra                # PID 1 init binary
     │
     └── zexlib/                        # Writable Userland — all installed packages land here
