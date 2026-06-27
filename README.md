@@ -36,9 +36,6 @@ Starting from LFS, every component of the system is intentional. The filesystem 
 ├── zaisys/                            # Kernel and early-boot environment
 │   └── kernel/                        # Kernel binary and quantra-ramfs
 │
-├── etc/          ──→  /overlayer/syshub/etc        # Symlink — no files live here directly
-├── var/          ──→  /overlayer/zexlib/union/var  # Symlink — runtime data
-├── tmp/          ──→  /overlayer/zexlib/union/tmp  # Symlink — temporary files
 │
 └── overlayer/
     │
@@ -70,8 +67,6 @@ Starting from LFS, every component of the system is intentional. The filesystem 
             ├── var/                   # Runtime and application data
             └── tmp/                   # Temporary files
 ```
-
-The `/etc`, `/var`, and `/tmp` entries at the root are pure symlinks. They contain no files of their own. This keeps the root directory minimal and ensures that configuration and runtime data always resolve to their correct layer.
 
 ---
 
