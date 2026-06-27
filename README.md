@@ -88,7 +88,7 @@ The `union/bin/`, `union/lib/`, and other subdirectories each hold either files 
 
 ## Package Management
 
-ZainiumOS uses **Zex** as its package manager. Zex operates entirely within `zexlib`. It sources packages from Alpine, Chimera, and the native `.zxpkg` format. The user never interacts with these backends directly — Zex presents a single unified interface.
+ZainiumOS uses **Zex** as its package manager. Zex operates entirely within `zexlib`. It sources packages from Alpine, Chimera, and the native `.zex` format. The user never interacts with these backends directly — Zex presents a single unified interface.
 
 ### packages.toml — The Master State File
 
